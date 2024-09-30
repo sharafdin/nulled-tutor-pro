@@ -1,0 +1,158 @@
+.themeum-license-window {
+    margin-right: 20px;
+}
+
+.themeum-license-card {
+    width: 730px;
+    max-width: 100%;
+    background: #FFFFFF;
+    padding: 52px;
+    margin: 100px auto;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+@media (max-width: 767.98px) {
+    .themeum-license-card {
+        padding: 20px 30px;
+        margin: 30px auto;
+    }
+}
+
+.themeum-license-brand {
+    margin-bottom: 26px;
+}
+
+.themeum-license-alert-success,
+.themeum-license-alert-error {
+    position: relative;
+    box-sizing: border-box;
+    padding: 30px 30px 30px 78px;
+    margin: 32px 0;
+    border-radius: 6px;
+}
+
+@media (max-width: 767.98px) {
+    .themeum-license-alert-success,
+    .themeum-license-alert-error {
+        padding: 20px 15px 20px 68px;
+        margin: 0px -15px 34px;
+    }
+}
+
+.themeum-license-alert-success {
+    background: #F5FBF7;
+    color: #075A2A;
+    border: 1px solid #CBE9D5;
+}
+
+.themeum-license-alert-error {
+    background: #FFF7F7;
+    color: #C62828;
+    border: 1px solid #FDD9D7;
+}
+
+.themeum-license-alert-icon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+@media (max-width: 767.98px) {
+    .themeum-license-alert-icon {
+        top: 15px;
+        left: 10px;
+    }
+}
+
+.themeum-license-alert-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0 0 10px 0;
+}
+
+.themeum-license-alert-message {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.themeum-license-fieldset {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.themeum-license-fieldset-label,
+.themeum-license-fieldset-content {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.themeum-license-fieldset-label {
+    width: 160px;
+    flex: 0 0 160px;
+    font-weight: normal;
+    color: #353535;
+}
+
+.themeum-license-fieldset-content {
+    font-weight: 500;
+    color: #161616;
+    flex-grow: 1;
+}
+
+.themeum-license-field {
+    position: relative;
+}
+
+.themeum-license-fieldset-content input[type="text"] {
+    display: block;
+    padding: 9px 12px;
+    width: 100%;
+}
+
+.themeum-license-is-valid,
+.themeum-license-is-invalid {
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) 50%;
+    padding-right: 38px;
+}
+
+.themeum-license-is-valid {
+    background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs/%3E%3Cpath d='M6.166 12.4a.606.606 0 01-.123-.189.695.695 0 010-.482.58.58 0 01.123-.188l.874-.837a.543.543 0 01.41-.188.572.572 0 01.24.048c.076.033.144.08.201.14l2.634 2.639 5.655-5.655a.591.591 0 01.662-.138c.07.032.133.08.184.138l.874.85a.579.579 0 01.123.188.695.695 0 010 .482.605.605 0 01-.123.188l-6.95 6.914a.556.556 0 01-.188.142.633.633 0 01-.483 0 .556.556 0 01-.188-.142L6.166 12.4z' fill='%23007A38'/%3E%3C/svg%3E");
+    border-color: #075A2A !important;
+}
+
+.themeum-license-is-valid:focus {
+    box-shadow: 0 0 0 1px #075A2A !important;
+}
+
+.themeum-license-is-invalid {
+    background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M3.5 12a8.5 8.5 0 1117 0 8.5 8.5 0 01-17 0zM12 7.75c.391 0 .708.317.708.708v.709a.708.708 0 11-1.416 0v-.709c0-.39.317-.708.708-.708zm0 2.833c.391 0 .708.317.708.709v4.25a.708.708 0 11-1.416 0v-4.25c0-.392.317-.709.708-.709z' fill='%23C62828'/%3E%3C/svg%3E");
+    border-color: #E53935 !important;
+}
+
+.themeum-license-is-invalid:focus {
+    box-shadow: 0 0 0 1px #E53935 !important;
+}
+
+.themeum-license-help-text {
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    color: #7A7A7A;
+    margin-top: 10px;
+}
+
+.themeum-license-actions {
+    padding-top: 20px;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.themeum-license-actions .button {
+    padding: 6px 13px;
+}
