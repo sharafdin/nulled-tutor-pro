@@ -1,6 +1,6 @@
 # Tutor Plugin - Enhance Your E-Learning Platform
 
-[![Tutor Plugin](./.github/tutor-logo.png)](https://tutorlms.com/)
+[![Tutor Plugin](./.github/tutor-white-logo.png)](https://tutorlms.com/)
 
 The Tutor Plugin is an advanced solution for e-learning platforms, providing all the essential tools for creating, managing, and delivering high-quality online courses. Whether you're a teacher, tutor, or educational institution, this plugin empowers you to enhance your educational website effortlessly.
 
