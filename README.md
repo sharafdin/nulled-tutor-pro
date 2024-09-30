@@ -22,7 +22,7 @@ You can download the Tutor Plugin for free from the [Releases](https://github.co
 
 ### 1. Download the Plugin
 
-- **Tutor Plugin**: [tutor-plugin.zip](https://github.com/sharafdin/nulled-tutor-pro/releases/tag/tutor-pro_v2.7.6)
+- **Tutor Plugin**: [tutor-plugin.zip](https://github.com/sharafdin/nulled-tutor-pro/releases/download/tutor-pro_v2.7.6/tutor-pro_v2.7.6.zip)
 
 ### 2. Install the Plugin
 
